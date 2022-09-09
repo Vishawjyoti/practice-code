@@ -14,6 +14,7 @@ import java.util.Map;
 @RequestMapping(value = "/eazy")
 // This is simple comment
 // another comment
+// third commit
 public class UserController {
     @Autowired
     UserService userService;
