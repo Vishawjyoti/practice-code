@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/eazy")
-
+// This is simple comment
 public class UserController {
     @Autowired
     UserService userService;
