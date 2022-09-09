@@ -1,0 +1,12 @@
+insert into user values('abhi', 'sharma', 'male', 'active', 'employee','abhish@gmail.com', '9999888800','abhi.sh');
+
+INSERT INTO `user`(`firstname`, `lastname`, `gender`,`status`,`type`,`email`,`mobile`,`loginid`) 
+VALUES ('abhi', 'sharma', 'male', 'active', 'employee','abhish@gmail.com', '9999888800','abhi.sh');
+
+
+insert into userlogin (userid, password) values (1, '$2a$12$rxf9IhvV0.NFtNafNm0DPuaz8NeGDdpGnIIl84gecS8IFehB0U9aW');
+
+ select id from user where email = 'abhi.sh'|| mobile = 'abhi.sh' || loginid = 'abhi.sh';
+
+	select password from userlogin where userid = 1;
+

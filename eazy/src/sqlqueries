@@ -1,0 +1,15 @@
+CREATE TABLE `eazy`.`user` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `firstname` VARCHAR(45) NULL,
+  `lastname` VARCHAR(45) NULL,
+  `gender` VARCHAR(45) NULL,
+  `status` VARCHAR(45) NULL,
+  `type` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `mobile` VARCHAR(45) NULL,
+  `loginid` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `eazy`.`userlogin` (
+  `loginid` INT NULL,
+  `password` VARCHAR(45) NULL);
